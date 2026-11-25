@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kinova_gen3_interfaces__cpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_gripper__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_gripper__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_gripper__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_joints__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_joints__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_joints__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_joints__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_tool__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_tool__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_tool__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/get_tool__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_gripper__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_gripper__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_gripper__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_joints__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_joints__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_joints__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_joints__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_tool__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_tool__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_tool__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/set_tool__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/status__builder.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/status__struct.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/status__traits.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/detail/status__type_support.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/get_gripper.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/get_joints.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/get_tool.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/set_gripper.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/set_joints.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/set_tool.hpp"
+  "rosidl_generator_cpp/kinova_gen3_interfaces/srv/status.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/kinova_gen3_interfaces__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

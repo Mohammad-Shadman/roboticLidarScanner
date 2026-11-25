@@ -1,0 +1,431 @@
+[0.545s] Invoking command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3:/home/mo/school/4421/project/ros2_ws/install/3d_scanner DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake /home/mo/school/4421/project/ros2_ws/src/kinova_gen3_interfaces -DCMAKE_INSTALL_PREFIX=/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces
+[0.716s] -- The C compiler identification is GNU 11.4.0
+[0.816s] -- The CXX compiler identification is GNU 11.4.0
+[0.828s] -- Detecting C compiler ABI info
+[0.921s] -- Detecting C compiler ABI info - done
+[0.929s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.929s] -- Detecting C compile features
+[0.930s] -- Detecting C compile features - done
+[0.934s] -- Detecting CXX compiler ABI info
+[1.031s] -- Detecting CXX compiler ABI info - done
+[1.038s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.039s] -- Detecting CXX compile features
+[1.039s] -- Detecting CXX compile features - done
+[1.046s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.220s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.334s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.348s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.815s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.307s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.309s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.342s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.342s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.342s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.366s] -- Found PythonExtra: .so  
+[2.467s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.494s] -- Added test 'lint_cmake' to check CMake code style
+[2.495s] -- Added test 'xmllint' to check XML markup files
+[2.499s] -- Configuring done
+[2.544s] -- Generating done
+[2.556s] -- Build files have been written to: /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces
+[2.564s] Invoked command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3:/home/mo/school/4421/project/ros2_ws/install/3d_scanner DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake /home/mo/school/4421/project/ros2_ws/src/kinova_gen3_interfaces -DCMAKE_INSTALL_PREFIX=/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces
+[2.567s] Invoking command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3:/home/mo/school/4421/project/ros2_ws/install/3d_scanner DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces -- -j16 -l16
+[2.613s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.624s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.624s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.635s] [  3%] Built target ament_cmake_python_copy_kinova_gen3_interfaces
+[2.881s] running egg_info
+[2.882s] creating kinova_gen3_interfaces.egg-info
+[2.882s] writing kinova_gen3_interfaces.egg-info/PKG-INFO
+[2.882s] writing dependency_links to kinova_gen3_interfaces.egg-info/dependency_links.txt
+[2.882s] writing top-level names to kinova_gen3_interfaces.egg-info/top_level.txt
+[2.882s] writing manifest file 'kinova_gen3_interfaces.egg-info/SOURCES.txt'
+[2.884s] reading manifest file 'kinova_gen3_interfaces.egg-info/SOURCES.txt'
+[2.885s] writing manifest file 'kinova_gen3_interfaces.egg-info/SOURCES.txt'
+[2.912s] [  3%] Built target ament_cmake_python_build_kinova_gen3_interfaces_egg
+[2.940s] [  3%] Built target kinova_gen3_interfaces__rs
+[3.347s] [  3%] Built target kinova_gen3_interfaces__cpp
+[3.351s] [  7%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/set_gripper__functions.c.o[0m
+[3.351s] [  6%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/get_gripper__functions.c.o[0m
+[3.351s] [  8%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/status__functions.c.o[0m
+[3.351s] [ 10%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/set_joints__functions.c.o[0m
+[3.352s] [ 11%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/set_tool__functions.c.o[0m
+[3.352s] [  7%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/get_joints__functions.c.o[0m
+[3.352s] [ 12%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_interfaces/srv/detail/get_tool__functions.c.o[0m
+[3.361s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.361s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.361s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.437s] [ 17%] [32m[1mLinking C shared library libkinova_gen3_interfaces__rosidl_generator_c.so[0m
+[3.479s] [ 17%] Built target kinova_gen3_interfaces__rosidl_generator_c
+[3.491s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.491s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.491s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.805s] [ 25%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/status__type_support.cpp.o[0m
+[3.805s] [ 25%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/set_joints__type_support.cpp.o[0m
+[3.805s] [ 25%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/get_gripper__type_support.cpp.o[0m
+[3.805s] [ 26%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/get_joints__type_support.cpp.o[0m
+[3.806s] [ 27%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/set_gripper__type_support.cpp.o[0m
+[3.807s] [ 28%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/get_tool__type_support.cpp.o[0m
+[3.807s] [ 30%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_interfaces/srv/set_tool__type_support.cpp.o[0m
+[3.946s] [ 31%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/status__type_support.cpp.o[0m
+[3.954s] [ 35%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.cpp.o[0m
+[3.954s] [ 35%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/set_joints__type_support.cpp.o[0m
+[3.955s] [ 35%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.cpp.o[0m
+[3.955s] [ 36%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/get_joints__type_support.cpp.o[0m
+[3.988s] [ 37%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/status__type_support.cpp.o[0m
+[4.047s] [ 38%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/set_gripper__type_support.cpp.o[0m
+[4.101s] [ 40%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/get_gripper__type_support.cpp.o[0m
+[4.157s] [ 41%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/set_joints__type_support.cpp.o[0m
+[4.214s] [ 42%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/get_joints__type_support.cpp.o[0m
+[4.245s] [ 45%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/get_tool__type_support.cpp.o[0m
+[4.245s] [ 45%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/get_tool__type_support.cpp.o[0m
+[4.246s] [ 46%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_interfaces/srv/detail/set_tool__type_support.cpp.o[0m
+[4.248s] [ 47%] [32m[1mLinking CXX shared library libkinova_gen3_interfaces__rosidl_typesupport_cpp.so[0m
+[4.260s] [ 48%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_interfaces/srv/set_tool__type_support.cpp.o[0m
+[4.275s] [ 50%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[4.283s] [ 51%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/set_gripper__type_support.cpp.o[0m
+[4.310s] [ 53%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/set_joints__type_support.cpp.o[0m
+[4.310s] [ 53%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/get_gripper__type_support.cpp.o[0m
+[4.311s] [ 55%] [32m[1mLinking CXX shared library libkinova_gen3_interfaces__rosidl_typesupport_c.so[0m
+[4.325s] [ 56%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/get_joints__type_support.cpp.o[0m
+[4.326s] [ 56%] Built target kinova_gen3_interfaces__rosidl_typesupport_cpp
+[4.329s] [ 57%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/status__type_support.c.o[0m
+[4.339s] [ 58%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.c.o[0m
+[4.341s] [ 60%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/status__type_support_c.cpp.o[0m
+[4.385s] [ 60%] Built target kinova_gen3_interfaces__rosidl_typesupport_c
+[4.395s] [ 61%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.c.o[0m
+[4.400s] [ 62%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/set_joints__type_support.c.o[0m
+[4.401s] [ 63%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/get_joints__type_support.c.o[0m
+[4.459s] [ 65%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/get_tool__type_support.c.o[0m
+[4.462s] [ 66%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_interfaces/srv/detail/set_tool__type_support.c.o[0m
+[4.467s] [ 67%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/get_tool__type_support.cpp.o[0m
+[4.504s] [ 70%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_interfaces/srv/detail/dds_fastrtps/set_tool__type_support.cpp.o[0m
+[4.505s] [ 70%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/set_gripper__type_support_c.cpp.o[0m
+[4.523s] [ 72%] [32m[1mLinking C shared library libkinova_gen3_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.524s] [ 72%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/get_gripper__type_support_c.cpp.o[0m
+[4.557s] [ 73%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/set_joints__type_support_c.cpp.o[0m
+[4.587s] [ 73%] Built target kinova_gen3_interfaces__rosidl_typesupport_introspection_c
+[4.600s] [ 75%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/get_joints__type_support_c.cpp.o[0m
+[4.604s] [ 76%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/get_tool__type_support_c.cpp.o[0m
+[4.607s] [ 77%] [32mBuilding CXX object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_interfaces/srv/detail/set_tool__type_support_c.cpp.o[0m
+[4.842s] [ 78%] [32m[1mLinking CXX shared library libkinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.016s] [ 78%] Built target kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp
+[5.091s] [ 80%] [32m[1mLinking CXX shared library libkinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.099s] [ 81%] [32m[1mLinking CXX shared library libkinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.171s] [ 81%] Built target kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.175s] [ 81%] Built target kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c
+[5.199s] [ 81%] Built target kinova_gen3_interfaces
+[5.224s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.405s] [ 82%] Built target kinova_gen3_interfaces__py
+[6.429s] [ 86%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_set_gripper_s.c.o[0m
+[6.429s] [ 86%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_status_s.c.o[0m
+[6.429s] [ 86%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_get_gripper_s.c.o[0m
+[6.429s] [ 87%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_set_joints_s.c.o[0m
+[6.429s] [ 88%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_get_joints_s.c.o[0m
+[6.429s] [ 90%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_get_tool_s.c.o[0m
+[6.430s] [ 91%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_interfaces/srv/_set_tool_s.c.o[0m
+[6.572s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/kinova_gen3_interfaces/libkinova_gen3_interfaces__rosidl_generator_py.so[0m
+[6.618s] [ 92%] Built target kinova_gen3_interfaces__rosidl_generator_py
+[6.641s] [ 95%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/kinova_gen3_interfaces/_kinova_gen3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.641s] [ 95%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kinova_gen3_interfaces/_kinova_gen3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.641s] [ 96%] [32mBuilding C object CMakeFiles/kinova_gen3_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kinova_gen3_interfaces/_kinova_gen3_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.767s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.767s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.771s] [100%] [32m[1mLinking C shared library rosidl_generator_py/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.804s] [100%] Built target kinova_gen3_interfaces__rosidl_typesupport_c__pyext
+[6.804s] [100%] Built target kinova_gen3_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.810s] [100%] Built target kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.824s] Invoked command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3:/home/mo/school/4421/project/ros2_ws/install/3d_scanner DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces -- -j16 -l16
+[6.836s] Invoking command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3:/home/mo/school/4421/project/ros2_ws/install/3d_scanner DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces
+[6.844s] -- Install configuration: ""
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/ament_index/resource_index/rosidl_interfaces/kinova_gen3_interfaces
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/get_tool.h
+[6.845s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/set_joints.h
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/set_tool.h
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/status.h
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/get_gripper.h
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__functions.h
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__struct.h
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__functions.c
+[6.846s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__type_support.h
+[6.847s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__functions.c
+[6.847s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__type_support.h
+[6.847s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__struct.h
+[6.847s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__functions.h
+[6.847s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__functions.h
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__functions.h
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__functions.c
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.h
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__functions.c
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__type_support.h
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__struct.h
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__functions.h
+[6.848s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__functions.c
+[6.849s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__type_support.h
+[6.849s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__struct.h
+[6.849s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__functions.c
+[6.849s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__struct.h
+[6.849s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__functions.h
+[6.849s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__functions.c
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__struct.h
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__type_support.h
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__functions.h
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__struct.h
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.h
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/set_gripper.h
+[6.850s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/get_joints.h
+[6.851s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/library_path.sh
+[6.851s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/library_path.dsv
+[6.851s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_generator_c.so
+[6.852s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_generator_c.so" to ""
+[6.852s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces
+[6.852s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg
+[6.852s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.852s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv
+[6.852s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail
+[6.852s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__rosidl_typesupport_fastrtps_c.h
+[6.852s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.854s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.854s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces
+[6.854s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg
+[6.854s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.854s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv
+[6.854s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__rosidl_typesupport_introspection_c.h
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__type_support.c
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__type_support.c
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.c
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__rosidl_typesupport_introspection_c.h
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__rosidl_typesupport_introspection_c.h
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__type_support.c
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__rosidl_typesupport_introspection_c.h
+[6.855s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__rosidl_typesupport_introspection_c.h
+[6.856s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__rosidl_typesupport_introspection_c.h
+[6.856s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__type_support.c
+[6.856s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__rosidl_typesupport_introspection_c.h
+[6.856s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.c
+[6.856s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__type_support.c
+[6.857s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_introspection_c.so
+[6.857s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.857s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_c.so
+[6.857s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_c.so" to ""
+[6.858s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces
+[6.858s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.858s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/set_tool.hpp
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/get_gripper.hpp
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/set_joints.hpp
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/set_gripper.hpp
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/get_joints.hpp
+[6.858s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/status.hpp
+[6.858s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__struct.hpp
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__struct.hpp
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__type_support.hpp
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__builder.hpp
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__traits.hpp
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__builder.hpp
+[6.859s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__builder.hpp
+[6.860s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__struct.hpp
+[6.860s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__struct.hpp
+[6.860s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__struct.hpp
+[6.860s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__builder.hpp
+[6.860s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__traits.hpp
+[6.860s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__struct.hpp
+[6.861s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__builder.hpp
+[6.861s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__type_support.hpp
+[6.861s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.hpp
+[6.861s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__traits.hpp
+[6.861s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__struct.hpp
+[6.861s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__traits.hpp
+[6.862s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__builder.hpp
+[6.862s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__type_support.hpp
+[6.862s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__traits.hpp
+[6.862s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__type_support.hpp
+[6.862s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__type_support.hpp
+[6.862s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.hpp
+[6.863s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__builder.hpp
+[6.863s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__traits.hpp
+[6.863s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__traits.hpp
+[6.863s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/get_tool.hpp
+[6.863s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces
+[6.863s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg
+[6.863s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.863s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv
+[6.863s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__rosidl_typesupport_fastrtps_cpp.hpp
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__rosidl_typesupport_fastrtps_cpp.hpp
+[6.864s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/dds_fastrtps
+[6.865s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[6.865s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.865s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.865s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces
+[6.866s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv
+[6.866s] -- Up-to-date: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__type_support.cpp
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__type_support.cpp
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__rosidl_typesupport_introspection_cpp.hpp
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__type_support.cpp
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_gripper__type_support.cpp
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_tool__rosidl_typesupport_introspection_cpp.hpp
+[6.866s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__type_support.cpp
+[6.867s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_gripper__rosidl_typesupport_introspection_cpp.hpp
+[6.867s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_joints__rosidl_typesupport_introspection_cpp.hpp
+[6.867s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/get_joints__rosidl_typesupport_introspection_cpp.hpp
+[6.867s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__type_support.cpp
+[6.867s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__type_support.cpp
+[6.867s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[6.868s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/include/kinova_gen3_interfaces/kinova_gen3_interfaces/srv/detail/set_tool__rosidl_typesupport_introspection_cpp.hpp
+[6.868s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.868s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.868s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_cpp.so
+[6.869s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.869s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/pythonpath.sh
+[6.869s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/pythonpath.dsv
+[6.869s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces-0.0.1-py3.10.egg-info
+[6.869s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[6.870s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[6.870s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[6.870s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[6.870s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces
+[6.870s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/libkinova_gen3_interfaces__rosidl_generator_py.so
+[6.870s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.871s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.871s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/__init__.py
+[6.871s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.871s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/_kinova_gen3_interfaces_s.ep.rosidl_typesupport_c.c
+[6.871s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/_kinova_gen3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.872s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv
+[6.872s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_gripper_s.c
+[6.872s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_status.py
+[6.872s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_joints.py
+[6.872s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_tool.py
+[6.872s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_gripper.py
+[6.873s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_tool_s.c
+[6.873s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_joints.py
+[6.873s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_gripper.py
+[6.873s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_status_s.c
+[6.873s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/__init__.py
+[6.873s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_joints_s.c
+[6.874s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_tool.py
+[6.874s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_tool_s.c
+[6.874s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_gripper_s.c
+[6.874s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_joints_s.c
+[6.874s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/_kinova_gen3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.920s] Listing '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/__init__.py'...
+[6.920s] Listing '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/__init__.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_gripper.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_joints.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_get_tool.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_gripper.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_joints.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_set_tool.py'...
+[6.920s] Compiling '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/srv/_status.py'...
+[6.924s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.925s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.925s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.925s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.926s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.926s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_interfaces/kinova_gen3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.926s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_generator_py.so
+[6.927s] -- Set runtime path of "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/lib/libkinova_gen3_interfaces__rosidl_generator_py.so" to ""
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/build.rs
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/Cargo.toml
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/src
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/src/lib.rs
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/src/srv
+[6.927s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/src/srv/rmw.rs
+[6.928s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/rust/src/srv.rs
+[6.928s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/Status.idl
+[6.928s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetGripper.idl
+[6.928s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetGripper.idl
+[6.928s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetJoints.idl
+[6.929s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetJoints.idl
+[6.929s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetTool.idl
+[6.929s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetTool.idl
+[6.929s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/Status.srv
+[6.929s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/Status_Request.msg
+[6.930s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/Status_Response.msg
+[6.930s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetGripper.srv
+[6.930s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetGripper_Request.msg
+[6.930s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetGripper_Response.msg
+[6.930s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetGripper.srv
+[6.931s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetGripper_Request.msg
+[6.931s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetGripper_Response.msg
+[6.931s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetJoints.srv
+[6.931s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetJoints_Request.msg
+[6.931s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetJoints_Response.msg
+[6.932s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetJoints.srv
+[6.932s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetJoints_Request.msg
+[6.932s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetJoints_Response.msg
+[6.932s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetTool.srv
+[6.932s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetTool_Request.msg
+[6.932s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/GetTool_Response.msg
+[6.933s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetTool.srv
+[6.933s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetTool_Request.msg
+[6.933s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/srv/SetTool_Response.msg
+[6.933s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/ament_index/resource_index/package_run_dependencies/kinova_gen3_interfaces
+[6.934s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/ament_index/resource_index/parent_prefix_path/kinova_gen3_interfaces
+[6.934s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/ament_prefix_path.sh
+[6.934s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/ament_prefix_path.dsv
+[6.934s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/path.sh
+[6.934s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/environment/path.dsv
+[6.935s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/local_setup.bash
+[6.935s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/local_setup.sh
+[6.935s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/local_setup.zsh
+[6.935s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/local_setup.dsv
+[6.935s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/package.dsv
+[6.936s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/ament_index/resource_index/packages/kinova_gen3_interfaces
+[6.936s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_generator_cExport.cmake
+[6.936s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.936s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.937s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.937s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.937s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.937s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_cExport.cmake
+[6.938s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.938s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_generator_cppExport.cmake
+[6.938s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.938s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.938s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.939s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.939s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_cppExport.cmake
+[6.939s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.939s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_generator_pyExport.cmake
+[6.939s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/export_kinova_gen3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.940s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.940s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.940s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.940s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.940s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.941s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.941s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.941s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.941s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfacesConfig.cmake
+[6.941s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/cmake/kinova_gen3_interfacesConfig-version.cmake
+[6.941s] -- Installing: /home/mo/school/4421/project/ros2_ws/install/kinova_gen3_interfaces/share/kinova_gen3_interfaces/package.xml
+[6.945s] Invoked command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3:/home/mo/school/4421/project/ros2_ws/install/3d_scanner DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces

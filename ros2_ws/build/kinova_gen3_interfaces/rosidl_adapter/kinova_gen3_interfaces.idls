@@ -1,0 +1,7 @@
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/Status.idl
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/SetGripper.idl
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/GetGripper.idl
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/SetJoints.idl
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/GetJoints.idl
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/GetTool.idl
+/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/rosidl_adapter/kinova_gen3_interfaces:srv/SetTool.idl

@@ -1,0 +1,7 @@
+"-specs=/home/mo/school/4421/project/ros2_ws/src/3d_scanner/3d_scanner/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+-fno-rtti

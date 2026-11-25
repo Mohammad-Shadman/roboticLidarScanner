@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kinova_gen3_interfaces__py",
+		"source" : "/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/kinova_gen3_interfaces__py"
+	}
+}

@@ -1,0 +1,4 @@
+[0.621s] Invoking command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /home/mo/.espressif/tools/cmake/4.0.3/bin/cmake --build /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces -- -j16 -l16
+[0.628s] no such file or directory
+[0.628s] [0mCMake Error: Generator: build tool execution failed, command was: /usr/bin/gmake -f Makefile -j16 -l16[0m
+[0.630s] Invoked command in '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /home/mo/.espressif/tools/cmake/4.0.3/bin/cmake --build /home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces -- -j16 -l16

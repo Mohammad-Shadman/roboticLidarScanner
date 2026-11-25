@@ -1,0 +1,5 @@
+  File "/home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3/kinova_gen3_tester.py", line 123
+    do_set_tool(node, set_tool, 0, 0, 0.7.6, 0, 0, 0)
+                                      ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

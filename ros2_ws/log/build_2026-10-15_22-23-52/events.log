@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (3d_scanner) JobQueued: {'identifier': '3d_scanner', 'dependencies': OrderedDict()}
+[0.000160] (3d_scanner) JobStarted: {'identifier': '3d_scanner'}
+[0.099365] (-) TimerEvent: {}
+[0.199609] (-) TimerEvent: {}
+[0.299844] (-) TimerEvent: {}
+[0.400106] (-) TimerEvent: {}
+[0.423889] (3d_scanner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/3d_scanner', 'build', '--build-base', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/build', 'install', '--record', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log', '--install-scripts', '$base/lib/3d_scanner', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mo/school/4421/project/ros2_ws/src/3d_scanner', 'env': OrderedDict([('MAIL', '/var/spool/mail/mo'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'mo'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1792116774_552951282'), ('HOSTNAME', 'archlinux'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '24'), ('XDG_CACHE_HOME', '/home/mo/.cache'), ('SHLVL', '6'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mo'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/mo/school/4421/project/ros2_ws/src'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '2069'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/mo/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '74f7fd6b-bc05-4d80-b110-999b71bbf6f0'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HYPRCURSOR_SIZE', '24'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/mo/.local/share'), ('XDG_CONFIG_HOME', '/home/mo/.config'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner'), ('CONTAINER_ID', 'ubuntu-box'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.14/dist-packages:/opt/ros/humble/lib/python3.14/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/opt/pybind11_vendor:/opt/ros/humble')]), 'shell': False}
+[0.500226] (-) TimerEvent: {}
+[0.581766] (3d_scanner) StdoutLine: {'line': b'running egg_info\n'}
+[0.582014] (3d_scanner) StdoutLine: {'line': b'creating ../../build/3d_scanner/3d_scanner.egg-info\n'}
+[0.582137] (3d_scanner) StdoutLine: {'line': b'writing ../../build/3d_scanner/3d_scanner.egg-info/PKG-INFO\n'}
+[0.582335] (3d_scanner) StdoutLine: {'line': b'writing dependency_links to ../../build/3d_scanner/3d_scanner.egg-info/dependency_links.txt\n'}
+[0.582478] (3d_scanner) StdoutLine: {'line': b'writing entry points to ../../build/3d_scanner/3d_scanner.egg-info/entry_points.txt\n'}
+[0.582574] (3d_scanner) StdoutLine: {'line': b'writing requirements to ../../build/3d_scanner/3d_scanner.egg-info/requires.txt\n'}
+[0.582632] (3d_scanner) StdoutLine: {'line': b'writing top-level names to ../../build/3d_scanner/3d_scanner.egg-info/top_level.txt\n'}
+[0.582685] (3d_scanner) StdoutLine: {'line': b"writing manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'\n"}
+[0.583471] (3d_scanner) StdoutLine: {'line': b"reading manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'\n"}
+[0.583560] (3d_scanner) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.583948] (3d_scanner) StdoutLine: {'line': b"writing manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'\n"}
+[0.584048] (3d_scanner) StdoutLine: {'line': b'running build\n'}
+[0.584101] (3d_scanner) StdoutLine: {'line': b'running build_py\n'}
+[0.584170] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build\n'}
+[0.584226] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib\n'}
+[0.584377] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner\n'}
+[0.584451] (3d_scanner) StdoutLine: {'line': b'copying 3d_scanner/lidar_collecter.py -> /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner\n'}
+[0.584543] (3d_scanner) StdoutLine: {'line': b'copying 3d_scanner/__init__.py -> /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner\n'}
+[0.584586] (3d_scanner) StdoutLine: {'line': b'running install\n'}
+[0.584697] (3d_scanner) StdoutLine: {'line': b'running install_lib\n'}
+[0.585128] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner\n'}
+[0.585227] (3d_scanner) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner/lidar_collecter.py -> /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner\n'}
+[0.585308] (3d_scanner) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner/__init__.py -> /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner\n'}
+[0.585599] (3d_scanner) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner/lidar_collecter.py to lidar_collecter.cpython-310.pyc\n'}
+[0.585792] (3d_scanner) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner/__init__.py to __init__.cpython-310.pyc\n'}
+[0.585901] (3d_scanner) StdoutLine: {'line': b'running install_data\n'}
+[0.586000] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/3d_scanner/share/ament_index\n'}
+[0.586046] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/3d_scanner/share/ament_index/resource_index\n'}
+[0.586130] (3d_scanner) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/3d_scanner/share/ament_index/resource_index/packages\n'}
+[0.586203] (3d_scanner) StdoutLine: {'line': b'copying resource/3d_scanner -> /home/mo/school/4421/project/ros2_ws/install/3d_scanner/share/ament_index/resource_index/packages\n'}
+[0.586249] (3d_scanner) StdoutLine: {'line': b'copying package.xml -> /home/mo/school/4421/project/ros2_ws/install/3d_scanner/share/3d_scanner\n'}
+[0.586303] (3d_scanner) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.587347] (3d_scanner) StdoutLine: {'line': b'Copying ../../build/3d_scanner/3d_scanner.egg-info to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner-0.0.0-py3.10.egg-info\n'}
+[0.587979] (3d_scanner) StdoutLine: {'line': b'running install_scripts\n'}
+[0.600320] (-) TimerEvent: {}
+[0.601629] (3d_scanner) StdoutLine: {'line': b'Installing lidar_collecter script to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/3d_scanner\n'}
+[0.601935] (3d_scanner) StdoutLine: {'line': b"writing list of installed files to '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log'\n"}
+[0.618350] (3d_scanner) CommandEnded: {'returncode': 0}
+[0.634304] (3d_scanner) JobEnded: {'identifier': '3d_scanner', 'rc': 0}
+[0.634898] (-) EventReactorShutdown: {}

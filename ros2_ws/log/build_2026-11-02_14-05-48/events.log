@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000822] (3d_scanner) JobQueued: {'identifier': '3d_scanner', 'dependencies': OrderedDict()}
+[0.000862] (kinova_gen3) JobQueued: {'identifier': 'kinova_gen3', 'dependencies': OrderedDict()}
+[0.000905] (3d_scanner) JobStarted: {'identifier': '3d_scanner'}
+[0.013120] (kinova_gen3) JobStarted: {'identifier': 'kinova_gen3'}
+[0.099714] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300413] (-) TimerEvent: {}
+[0.400728] (-) TimerEvent: {}
+[0.501124] (-) TimerEvent: {}
+[0.601524] (-) TimerEvent: {}
+[0.702215] (-) TimerEvent: {}
+[0.802606] (-) TimerEvent: {}
+[0.902984] (-) TimerEvent: {}
+[0.953185] (3d_scanner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/3d_scanner', 'build', '--build-base', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/build', 'install', '--record', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log', '--install-scripts', '$base/lib/3d_scanner', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mo/school/4421/project/ros2_ws/src/3d_scanner', 'env': OrderedDict([('MAIL', '/var/spool/mail/mo'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'mo'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1793644684_2004943720'), ('HOSTNAME', 'archlinux'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '24'), ('XDG_CACHE_HOME', '/home/mo/.cache'), ('SHLVL', '6'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mo'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/mo/school/4421'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '3378'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/mo/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('KITTY_PUBLIC_KEY', '1:<C@@2*=u*Qu>}2qU_I@*5fQDhnAe23h^}?7_S~u<'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '7c98cc4b-d893-4b80-a016-872d97fad72d'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HYPRCURSOR_SIZE', '24'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/mo/.local/share'), ('XDG_CONFIG_HOME', '/home/mo/.config'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('KITTY_WINDOW_ID', '1'), ('MKLROOT', '/opt/intel/oneapi/mkl/latest'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner'), ('CONTAINER_ID', 'ubuntu-box'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.14/dist-packages:/opt/ros/humble/lib/python3.14/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/opt/pybind11_vendor:/opt/ros/humble')]), 'shell': False}
+[0.956890] (kinova_gen3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kinova_gen3', 'build', '--build-base', '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build', 'install', '--record', '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/install.log', '--install-scripts', '$base/lib/kinova_gen3', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mo/school/4421/project/ros2_ws/src/kinova_gen3', 'env': OrderedDict([('MAIL', '/var/spool/mail/mo'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'mo'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1793644684_2004943720'), ('HOSTNAME', 'archlinux'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '24'), ('XDG_CACHE_HOME', '/home/mo/.cache'), ('SHLVL', '6'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mo'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/mo/school/4421'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '3378'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/mo/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('KITTY_PUBLIC_KEY', '1:<C@@2*=u*Qu>}2qU_I@*5fQDhnAe23h^}?7_S~u<'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '7c98cc4b-d893-4b80-a016-872d97fad72d'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HYPRCURSOR_SIZE', '24'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/mo/.local/share'), ('XDG_CONFIG_HOME', '/home/mo/.config'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('KITTY_WINDOW_ID', '1'), ('MKLROOT', '/opt/intel/oneapi/mkl/latest'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3'), ('CONTAINER_ID', 'ubuntu-box'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.14/dist-packages:/opt/ros/humble/lib/python3.14/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/opt/pybind11_vendor:/opt/ros/humble')]), 'shell': False}
+[1.003104] (-) TimerEvent: {}
+[1.103484] (-) TimerEvent: {}
+[1.197883] (kinova_gen3) StdoutLine: {'line': b'running egg_info\n'}
+[1.198240] (3d_scanner) StdoutLine: {'line': b'running egg_info\n'}
+[1.198411] (kinova_gen3) StdoutLine: {'line': b'creating ../../build/kinova_gen3/kinova_gen3.egg-info\n'}
+[1.198655] (kinova_gen3) StdoutLine: {'line': b'writing ../../build/kinova_gen3/kinova_gen3.egg-info/PKG-INFO\n'}
+[1.198920] (kinova_gen3) StdoutLine: {'line': b'writing dependency_links to ../../build/kinova_gen3/kinova_gen3.egg-info/dependency_links.txt\n'}
+[1.199207] (kinova_gen3) StdoutLine: {'line': b'writing entry points to ../../build/kinova_gen3/kinova_gen3.egg-info/entry_points.txt\n'}
+[1.199441] (3d_scanner) StdoutLine: {'line': b'writing ../../build/3d_scanner/3d_scanner.egg-info/PKG-INFO\n'}
+[1.199668] (3d_scanner) StdoutLine: {'line': b'writing dependency_links to ../../build/3d_scanner/3d_scanner.egg-info/dependency_links.txt\n'}
+[1.199773] (3d_scanner) StdoutLine: {'line': b'writing entry points to ../../build/3d_scanner/3d_scanner.egg-info/entry_points.txt\n'}
+[1.199855] (kinova_gen3) StdoutLine: {'line': b'writing requirements to ../../build/kinova_gen3/kinova_gen3.egg-info/requires.txt\n'}
+[1.200000] (kinova_gen3) StdoutLine: {'line': b'writing top-level names to ../../build/kinova_gen3/kinova_gen3.egg-info/top_level.txt\n'}
+[1.200069] (kinova_gen3) StdoutLine: {'line': b"writing manifest file '../../build/kinova_gen3/kinova_gen3.egg-info/SOURCES.txt'\n"}
+[1.200132] (3d_scanner) StdoutLine: {'line': b'writing requirements to ../../build/3d_scanner/3d_scanner.egg-info/requires.txt\n'}
+[1.200192] (3d_scanner) StdoutLine: {'line': b'writing top-level names to ../../build/3d_scanner/3d_scanner.egg-info/top_level.txt\n'}
+[1.201125] (kinova_gen3) StdoutLine: {'line': b"reading manifest file '../../build/kinova_gen3/kinova_gen3.egg-info/SOURCES.txt'\n"}
+[1.201398] (3d_scanner) StdoutLine: {'line': b"reading manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'\n"}
+[1.201973] (kinova_gen3) StdoutLine: {'line': b"writing manifest file '../../build/kinova_gen3/kinova_gen3.egg-info/SOURCES.txt'\n"}
+[1.202161] (kinova_gen3) StdoutLine: {'line': b'running build\n'}
+[1.202248] (kinova_gen3) StdoutLine: {'line': b'running build_py\n'}
+[1.202364] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build\n'}
+[1.202462] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib\n'}
+[1.202520] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3\n'}
+[1.202610] (kinova_gen3) StdoutLine: {'line': b'copying kinova_gen3/kinova_gen3_tester.py -> /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3\n'}
+[1.202666] (kinova_gen3) StdoutLine: {'line': b'copying kinova_gen3/kinova_gen3_node.py -> /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3\n'}
+[1.202763] (kinova_gen3) StdoutLine: {'line': b'copying kinova_gen3/__init__.py -> /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3\n'}
+[1.202861] (kinova_gen3) StdoutLine: {'line': b'copying kinova_gen3/utilities.py -> /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3\n'}
+[1.203027] (kinova_gen3) StdoutLine: {'line': b'running install\n'}
+[1.203393] (kinova_gen3) StdoutLine: {'line': b'running install_lib\n'}
+[1.203528] (-) TimerEvent: {}
+[1.204185] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3\n'}
+[1.204345] (kinova_gen3) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3/kinova_gen3_tester.py -> /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3\n'}
+[1.204473] (kinova_gen3) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3/kinova_gen3_node.py -> /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3\n'}
+[1.204582] (kinova_gen3) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3/__init__.py -> /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3\n'}
+[1.204713] (kinova_gen3) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build/lib/kinova_gen3/utilities.py -> /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3\n'}
+[1.205326] (kinova_gen3) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3/kinova_gen3_tester.py to kinova_gen3_tester.cpython-310.pyc\n'}
+[1.205941] (3d_scanner) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.206589] (3d_scanner) StdoutLine: {'line': b"writing manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'\n"}
+[1.206838] (kinova_gen3) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3/kinova_gen3_node.py to kinova_gen3_node.cpython-310.pyc\n'}
+[1.207070] (3d_scanner) StdoutLine: {'line': b'running build\n'}
+[1.207155] (3d_scanner) StdoutLine: {'line': b'running build_py\n'}
+[1.207220] (3d_scanner) StdoutLine: {'line': b'copying 3d_scanner/lidar_collecter.py -> /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner\n'}
+[1.207344] (3d_scanner) StdoutLine: {'line': b'running install\n'}
+[1.207725] (3d_scanner) StdoutLine: {'line': b'running install_lib\n'}
+[1.208566] (3d_scanner) StdoutLine: {'line': b'copying /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner/lidar_collecter.py -> /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner\n'}
+[1.208731] (kinova_gen3) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3/__init__.py to __init__.cpython-310.pyc\n'}
+[1.208854] (kinova_gen3) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3/utilities.py to utilities.cpython-310.pyc\n'}
+[1.209413] (kinova_gen3) StdoutLine: {'line': b'running install_data\n'}
+[1.209608] (3d_scanner) StdoutLine: {'line': b'byte-compiling /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner/lidar_collecter.py to lidar_collecter.cpython-310.pyc\n'}
+[1.209763] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/share/ament_index\n'}
+[1.209850] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/share/ament_index/resource_index\n'}
+[1.209993] (kinova_gen3) StdoutLine: {'line': b'creating /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/share/ament_index/resource_index/packages\n'}
+[1.210068] (kinova_gen3) StdoutLine: {'line': b'copying resource/kinova_gen3 -> /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/share/ament_index/resource_index/packages\n'}
+[1.210127] (kinova_gen3) StdoutLine: {'line': b'copying package.xml -> /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/share/kinova_gen3\n'}
+[1.210176] (kinova_gen3) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.210544] (3d_scanner) StdoutLine: {'line': b'running install_data\n'}
+[1.210712] (3d_scanner) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.211920] (kinova_gen3) StdoutLine: {'line': b'Copying ../../build/kinova_gen3/kinova_gen3.egg-info to /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3-0.0.0-py3.10.egg-info\n'}
+[1.212472] (3d_scanner) StdoutLine: {'line': b"removing '/home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.212853] (3d_scanner) StdoutLine: {'line': b'Copying ../../build/3d_scanner/3d_scanner.egg-info to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner-0.0.0-py3.10.egg-info\n'}
+[1.213106] (kinova_gen3) StdoutLine: {'line': b'running install_scripts\n'}
+[1.213995] (3d_scanner) StdoutLine: {'line': b'running install_scripts\n'}
+[1.235243] (3d_scanner) StdoutLine: {'line': b'Installing lidar_collecter script to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/3d_scanner\n'}
+[1.235548] (kinova_gen3) StdoutLine: {'line': b'Installing kinova_gen3_node script to /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/kinova_gen3\n'}
+[1.235750] (3d_scanner) StdoutLine: {'line': b"writing list of installed files to '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log'\n"}
+[1.235938] (kinova_gen3) StdoutLine: {'line': b'Installing kinova_gen3_tester script to /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/kinova_gen3\n'}
+[1.236255] (kinova_gen3) StdoutLine: {'line': b"writing list of installed files to '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/install.log'\n"}
+[1.268027] (3d_scanner) CommandEnded: {'returncode': 0}
+[1.292115] (3d_scanner) JobEnded: {'identifier': '3d_scanner', 'rc': 0}
+[1.293713] (kinova_gen3) CommandEnded: {'returncode': 0}
+[1.300289] (kinova_gen3) JobEnded: {'identifier': 'kinova_gen3', 'rc': 0}
+[1.301396] (-) EventReactorShutdown: {}

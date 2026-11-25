@@ -1,0 +1,6 @@
+{
+  "package_name": "Lidar_sensor",
+  "non_idl_tuples": [
+    "/home/mo/school/4421/project/ros2_ws/src/Lidar_sensor:msg/SensorData.msg"
+  ]
+}

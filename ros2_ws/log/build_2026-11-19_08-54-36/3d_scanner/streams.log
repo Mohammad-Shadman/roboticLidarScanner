@@ -1,0 +1,26 @@
+[1.190s] Invoking command in '/home/mo/school/4421/project/ros2_ws/src/3d_scanner': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/mo/school/4421/project/ros2_ws/build/3d_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/3d_scanner build --build-base /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build install --record /home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log --install-scripts $base/lib/3d_scanner --single-version-externally-managed install_data
+[1.465s] running egg_info
+[1.465s] writing ../../build/3d_scanner/3d_scanner.egg-info/PKG-INFO
+[1.474s] writing dependency_links to ../../build/3d_scanner/3d_scanner.egg-info/dependency_links.txt
+[1.474s] writing entry points to ../../build/3d_scanner/3d_scanner.egg-info/entry_points.txt
+[1.474s] writing requirements to ../../build/3d_scanner/3d_scanner.egg-info/requires.txt
+[1.474s] writing top-level names to ../../build/3d_scanner/3d_scanner.egg-info/top_level.txt
+[1.476s] reading manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'
+[1.476s] adding license file 'LICENSE'
+[1.477s] writing manifest file '../../build/3d_scanner/3d_scanner.egg-info/SOURCES.txt'
+[1.477s] running build
+[1.477s] running build_py
+[1.479s] copying 3d_scanner/report_lidar.py -> /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner
+[1.480s] running install
+[1.481s] running install_lib
+[1.482s] copying /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build/lib/3d_scanner/report_lidar.py -> /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner
+[1.483s] byte-compiling /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner/report_lidar.py to report_lidar.cpython-310.pyc
+[1.484s] running install_data
+[1.484s] running install_egg_info
+[1.486s] removing '/home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner-0.0.0-py3.10.egg-info' (and everything under it)
+[1.486s] Copying ../../build/3d_scanner/3d_scanner.egg-info to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages/3d_scanner-0.0.0-py3.10.egg-info
+[1.487s] running install_scripts
+[1.509s] Installing lidar_collecter script to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/3d_scanner
+[1.509s] Installing report_lidar script to /home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/3d_scanner
+[1.509s] writing list of installed files to '/home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log'
+[1.558s] Invoked command in '/home/mo/school/4421/project/ros2_ws/src/3d_scanner' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/mo/school/4421/project/ros2_ws/build/3d_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/3d_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/3d_scanner build --build-base /home/mo/school/4421/project/ros2_ws/build/3d_scanner/build install --record /home/mo/school/4421/project/ros2_ws/build/3d_scanner/install.log --install-scripts $base/lib/3d_scanner --single-version-externally-managed install_data

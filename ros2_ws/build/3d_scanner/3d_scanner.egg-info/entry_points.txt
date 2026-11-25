@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_collecter = 3d_scanner.lidar_collecter:main
+report_lidar = 3d_scanner.report_lidar:main
+

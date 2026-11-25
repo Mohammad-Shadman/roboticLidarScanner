@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-797dd00c48913570402e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "kinova_gen3_interfaces__py",
+					"jsonFile" : "directory-kinova_gen3_interfaces__py-d62bae8157051c051e33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/kinova_gen3_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "kinova_gen3_interfaces__rs",
+					"jsonFile" : "directory-kinova_gen3_interfaces__rs-346ab3cb130caa615e2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces/kinova_gen3_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "kinova_gen3_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kinova_gen3_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kinova_gen3_interfaces_egg-7b8c0d5d85a6360898cd.json",
+					"name" : "ament_cmake_python_build_kinova_gen3_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kinova_gen3_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kinova_gen3_interfaces-54ff8863777270e8a559.json",
+					"name" : "ament_cmake_python_copy_kinova_gen3_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces-c3df2e9a3ce9d19950d5.json",
+					"name" : "kinova_gen3_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__cpp-e347529931b693733e19.json",
+					"name" : "kinova_gen3_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kinova_gen3_interfaces__py::@f0a131420c6edf13ae7d",
+					"jsonFile" : "target-kinova_gen3_interfaces__py-220d11e5f21f80832a6e.json",
+					"name" : "kinova_gen3_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_generator_c-892ddd7d4e625ed184db.json",
+					"name" : "kinova_gen3_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_generator_py-2f2ac54928ccfb59af7f.json",
+					"name" : "kinova_gen3_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_c-68c55d01829fe825346d.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_c__pyext-a14813993127612cac1b.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_cpp-d6cac511bce6b27dfba7.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c-2a00da99080082ad6949.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c__pyext-b8953a62f505742cca00.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp-c6a1faa9b143d9786756.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_introspection_c-f1021a57a39c0a2f7b8c.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_introspection_c__pyext-8211be15766dc72786a5.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp-3ff9d5f062af11a54d55.json",
+					"name" : "kinova_gen3_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "kinova_gen3_interfaces__rs::@a3aca50d93e9618f4c25",
+					"jsonFile" : "target-kinova_gen3_interfaces__rs-a4baaf950a03d1350e1d.json",
+					"name" : "kinova_gen3_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_interfaces_uninstall-3aceee40e341e60ddd15.json",
+					"name" : "kinova_gen3_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a764b099e0358e7c7c3d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mo/school/4421/project/ros2_ws/build/kinova_gen3_interfaces",
+		"source" : "/home/mo/school/4421/project/ros2_ws/src/kinova_gen3_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,22 @@
+[0.969s] Invoking command in '/home/mo/school/4421/project/ros2_ws/src/kinova_gen3': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinova_gen3 build --build-base /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build install --record /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/install.log --install-scripts $base/lib/kinova_gen3 --single-version-externally-managed install_data
+[1.222s] running egg_info
+[1.223s] writing ../../build/kinova_gen3/kinova_gen3.egg-info/PKG-INFO
+[1.223s] writing dependency_links to ../../build/kinova_gen3/kinova_gen3.egg-info/dependency_links.txt
+[1.223s] writing entry points to ../../build/kinova_gen3/kinova_gen3.egg-info/entry_points.txt
+[1.223s] writing requirements to ../../build/kinova_gen3/kinova_gen3.egg-info/requires.txt
+[1.224s] writing top-level names to ../../build/kinova_gen3/kinova_gen3.egg-info/top_level.txt
+[1.226s] reading manifest file '../../build/kinova_gen3/kinova_gen3.egg-info/SOURCES.txt'
+[1.226s] writing manifest file '../../build/kinova_gen3/kinova_gen3.egg-info/SOURCES.txt'
+[1.227s] running build
+[1.227s] running build_py
+[1.227s] running install
+[1.227s] running install_lib
+[1.229s] running install_data
+[1.229s] running install_egg_info
+[1.232s] removing '/home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3-0.0.0-py3.10.egg-info' (and everything under it)
+[1.232s] Copying ../../build/kinova_gen3/kinova_gen3.egg-info to /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages/kinova_gen3-0.0.0-py3.10.egg-info
+[1.233s] running install_scripts
+[1.256s] Installing kinova_gen3_node script to /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/kinova_gen3
+[1.256s] Installing kinova_gen3_tester script to /home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/kinova_gen3
+[1.256s] writing list of installed files to '/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/install.log'
+[1.290s] Invoked command in '/home/mo/school/4421/project/ros2_ws/src/kinova_gen3' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/mo/school/4421/project/ros2_ws/build/kinova_gen3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mo/school/4421/project/ros2_ws/install/kinova_gen3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinova_gen3 build --build-base /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/build install --record /home/mo/school/4421/project/ros2_ws/build/kinova_gen3/install.log --install-scripts $base/lib/kinova_gen3 --single-version-externally-managed install_data
